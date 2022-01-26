@@ -1,8 +1,6 @@
 import React, {createContext, useState} from 'react'
-import Home from '../../components/Home/Home';
 import Nav from "../../components/Nav/Nav";
 import AppRoutes from '../../container/AppRoutes';
-import ThemeProvider from '../ThemeProvider/ThemeProvider';
 
 export const UserContext = createContext({});
 
